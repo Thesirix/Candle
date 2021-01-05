@@ -4,3 +4,6 @@ import pygame
 pygame.init()
 
 # Définition des dimensions de la fenêtre
+WIDTH = 800
+HEIGHT = 600
+
