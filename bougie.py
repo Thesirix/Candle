@@ -15,3 +15,6 @@ GREEN = (0, 255, 0)
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Jeu de la bougie japonaise")
 
+clock = pygame.time.Clock()
+
+# Classe représentant la bougie japonaise
