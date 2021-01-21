@@ -18,3 +18,6 @@ pygame.display.set_caption("Jeu de la bougie japonaise")
 clock = pygame.time.Clock()
 
 # Classe représentant la bougie japonaise
+class Bougie:
+    def __init__(self):
+        self.width = 50
