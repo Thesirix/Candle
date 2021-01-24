@@ -21,3 +21,6 @@ clock = pygame.time.Clock()
 class Bougie:
     def __init__(self):
         self.width = 50
+        self.height = 0
+        self.x = WIDTH // 2 - self.width // 2
+        self.y = HEIGHT - self.height
