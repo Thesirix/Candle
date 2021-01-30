@@ -24,3 +24,6 @@ class Bougie:
         self.height = 0
         self.x = WIDTH // 2 - self.width // 2
         self.y = HEIGHT - self.height
+        self.speed = 1
+        self.max_height = HEIGHT - 50
+        self.difficulty = 1
