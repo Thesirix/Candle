@@ -30,3 +30,6 @@ class Bougie:
         self.last_click_time = 0
 
     def update(self):
+        current_time = pygame.time.get_ticks()
+        time_since_last_click = current_time - self.last_click_time
+
