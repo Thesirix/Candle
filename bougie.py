@@ -27,3 +27,6 @@ class Bougie:
         self.speed = 1
         self.max_height = HEIGHT - 50
         self.difficulty = 1
+        self.last_click_time = 0
+
+    def update(self):
