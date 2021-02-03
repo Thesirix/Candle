@@ -33,3 +33,6 @@ class Bougie:
         current_time = pygame.time.get_ticks()
         time_since_last_click = current_time - self.last_click_time
 
+        if time_since_last_click <= 100:
+            self.height += self.speed
+        else:
