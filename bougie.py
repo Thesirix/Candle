@@ -36,3 +36,6 @@ class Bougie:
         if time_since_last_click <= 100:
             self.height += self.speed
         else:
+            self.height -= self.speed / self.difficulty
+
+        if self.height >= self.max_height * (self.difficulty / 10):
