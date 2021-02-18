@@ -39,3 +39,6 @@ class Bougie:
             self.height -= self.speed / self.difficulty
 
         if self.height >= self.max_height * (self.difficulty / 10):
+            self.difficulty += 1
+
+        if self.height <= 0:
