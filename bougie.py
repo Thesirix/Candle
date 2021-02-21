@@ -42,3 +42,7 @@ class Bougie:
             self.difficulty += 1
 
         if self.height <= 0:
+            self.height = 0
+
+        self.y = HEIGHT - self.height
+
