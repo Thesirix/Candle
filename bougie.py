@@ -46,3 +46,6 @@ class Bougie:
 
         self.y = HEIGHT - self.height
 
+    def draw(self):
+        pygame.draw.rect(screen, GREEN, (self.x, self.y, self.width, self.height))
+
