@@ -49,3 +49,6 @@ class Bougie:
     def draw(self):
         pygame.draw.rect(screen, GREEN, (self.x, self.y, self.width, self.height))
 
+# Création de la bougie
+bougie = Bougie()
+
