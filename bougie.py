@@ -52,3 +52,7 @@ class Bougie:
 # Création de la bougie
 bougie = Bougie()
 
+# Variables du jeu
+score = 0
+is_running = True
+
