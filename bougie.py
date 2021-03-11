@@ -56,3 +56,6 @@ bougie = Bougie()
 score = 0
 is_running = True
 
+while is_running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
