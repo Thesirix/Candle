@@ -59,3 +59,6 @@ is_running = True
 while is_running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
+            is_running = False
+        elif event.type == pygame.MOUSEBUTTONDOWN:
+            bougie.last_click_time = pygame.time.get_ticks()
