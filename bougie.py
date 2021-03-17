@@ -62,3 +62,6 @@ while is_running:
             is_running = False
         elif event.type == pygame.MOUSEBUTTONDOWN:
             bougie.last_click_time = pygame.time.get_ticks()
+            bougie.update()
+            score += 1
+
