@@ -65,3 +65,6 @@ while is_running:
             bougie.update()
             score += 1
 
+    # Mise à jour de la bougie
+    bougie.update()
+
