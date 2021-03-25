@@ -68,3 +68,6 @@ while is_running:
     # Mise à jour de la bougie
     bougie.update()
 
+    # Effacement de l'écran
+    screen.fill(WHITE)
+
