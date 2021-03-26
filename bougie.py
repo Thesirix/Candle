@@ -71,3 +71,6 @@ while is_running:
     # Effacement de l'écran
     screen.fill(WHITE)
 
+    # Affichage de la bougie
+    bougie.draw()
+
