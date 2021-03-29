@@ -74,3 +74,6 @@ while is_running:
     # Affichage de la bougie
     bougie.draw()
 
+    # Affichage du score
+    font = pygame.font.Font(None, 36)
+    score_text = font.render("Score: " + str(score), True, GREEN)
