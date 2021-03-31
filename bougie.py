@@ -77,3 +77,6 @@ while is_running:
     # Affichage du score
     font = pygame.font.Font(None, 36)
     score_text = font.render("Score: " + str(score), True, GREEN)
+    screen.blit(score_text, (10, 10))
+
+    # Rafraîchissement de l'écran
