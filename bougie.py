@@ -80,3 +80,6 @@ while is_running:
     screen.blit(score_text, (10, 10))
 
     # Rafraîchissement de l'écran
+    pygame.display.flip()
+
+    # Limite de 60 images par seconde
