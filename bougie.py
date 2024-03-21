@@ -83,3 +83,7 @@ while is_running:
     pygame.display.flip()
 
     # Limite de 60 images par seconde
+    clock.tick(60)
+
+# Fermeture de Pygame
+pygame.quit()
