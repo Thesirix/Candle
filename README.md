@@ -13,7 +13,7 @@ Ce projet est une ébauche conçue pour illustrer le concept d'élasticité dans
 
 ## Comment jouer
 
-1. Exécutez le fichier `CandleClicker.py` avec Python.
+1. Exécutez le fichier `Candle.py` avec Python.
 2. Cliquez rapidement sur la bougie pour la faire monter.
 3. Plus vous cliquez vite, plus la bougie monte.
 4. Le score augmente à chaque clic.
@@ -28,4 +28,4 @@ Les contributions sont les bienvenues ! Si vous souhaitez améliorer ce jeu ou a
 
 Ce projet est encore une ébauche et peut nécessiter des améliorations. Il s'agit d'un travail en cours visant à illustrer les concepts de trading et de développement de bots de trading.
 
-Amusez-vous bien à jouer à CandleClicker et à explorer les nuances de l'élasticité et des pressions vendeuses dans le trading !
+Amusez-vous bien à jouer à Candle et à explorer les nuances de l'élasticité et des pressions vendeuses dans le trading !
