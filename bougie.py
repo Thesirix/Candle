@@ -84,6 +84,7 @@ while is_running:
 
     # Limite de 60 images par seconde
     clock.tick(60)
+    # voici exe final
 
 # Fermeture de Pygame
 pygame.quit()
