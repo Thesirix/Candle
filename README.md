@@ -4,6 +4,8 @@ Candle est un jeu en Python que j'ai développé pour représenter une bougie ja
 
 Ce projet est une ébauche conçue pour illustrer le concept d'élasticité dans le trading et les flux de tension acheteuse. À terme, il me permettra de créer un bot de trading plus élaboré.
 
+![Candle](./candle.png)
+
 ## Fonctionnalités
 
 - Interface graphique simple pour représenter la bougie japonaise.
