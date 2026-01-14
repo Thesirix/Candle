@@ -1,33 +1,33 @@
-# Candle
+# 🕯️ Candle
 
-Candle est un jeu en Python que j'ai développé pour représenter une bougie japonaise, similaire au trading. Plus vous cliquez rapidement, plus la bougie monte, et plus il devient difficile de la faire monter. Un score s'incrémente à chaque clic, et lorsque vous arrêtez de cliquer, la bougie redescend doucement.
+**Candle** is a Python game developed to simulate a Japanese candlestick, similar to trading charts. The faster you click, the higher the candle rises, and the harder it becomes to push it upwards. A score increments with each click, and when you stop clicking, the candle slowly descends.
 
-Ce projet est une ébauche conçue pour illustrer le concept d'élasticité dans le trading et les flux de tension acheteuse. À terme, il me permettra de créer un bot de trading plus élaboré.
+This project is a proof of concept designed to illustrate the concept of **elasticity** in trading and **buying pressure flows**. Eventually, it will serve as a foundation for creating a more elaborate trading bot.
 
 ![Candle](./candle.png)
 
-## Fonctionnalités
+## ✨ Features
 
-- Interface graphique simple pour représenter la bougie japonaise.
-- Mécanisme de clic pour faire monter la bougie plus rapidement.
-- Incrémentation du score à chaque clic.
-- Décroissance progressive de la bougie lorsque les clics cessent.
+- 📈 **Simple GUI** to represent the Japanese candlestick.
+- 🖱️ **Click Mechanism:** Click rapidly to make the candle rise.
+- 💯 **Score System:** Score increments with each click.
+- 📉 **Progressive Decay:** The candle descends gradually when clicks stop.
 
-## Comment jouer
+## 🎮 How to Play
 
-1. Exécutez le fichier `Candle.py` avec Python.
-2. Cliquez rapidement sur la bougie pour la faire monter.
-3. Plus vous cliquez vite, plus la bougie monte.
-4. Le score augmente à chaque clic.
-5. Lorsque vous arrêtez de cliquer, la bougie redescend lentement.
-6. Essayez d'obtenir le meilleur score possible en cliquant rapidement et efficacement.
+1. **Run the script:** Execute the `Candle.py` file with Python.
+2. **Click fast:** Click rapidly to make the candle rise.
+3. **Resistance:** The faster you click, the higher it goes.
+4. **Score:** Watch your score increase with every click.
+5. **Gravity:** When you stop clicking, the candle will slowly fall back down.
+6. **Challenge:** Try to get the best score possible by clicking quickly and efficiently.
 
-## Contributions
+## ❤️ Contributions
 
-Les contributions sont les bienvenues ! Si vous souhaitez améliorer ce jeu ou ajouter de nouvelles fonctionnalités, n'hésitez pas à créer une demande d'extraction.
+Contributions are welcome! If you want to improve this game or add new features, feel free to open a pull request.
 
-## Remarque
+## ⚠️ Note
 
-Ce projet est encore une ébauche et peut nécessiter des améliorations. Il s'agit d'un travail en cours visant à illustrer les concepts de trading et de développement de bots de trading.
+This project is still a draft and may require improvements. It is a work in progress aimed at illustrating trading concepts and trading bot development.
 
-Amusez-vous bien à jouer à Candle et à explorer les nuances de l'élasticité et des pressions vendeuses dans le trading !
+Enjoy playing Candle and exploring the nuances of elasticity and selling pressure in trading! 📉🚀
